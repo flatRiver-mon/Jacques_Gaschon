@@ -9,7 +9,7 @@
 
 ## 릴리즈 정보
 1. 안드로이드 버전은 [여기](https://github.com/flatRiver-mon/jacques_gaschon/raw/master/jacques_gaschon.apk)를 눌러서 다운로드 하실 수 있습니다.
-2. 웹 버전은 [여기](http://kpk0416.dothome.co.kr/hhi)를 눌러 브라우저에서 이용할 수 있습니다.
+2. 웹 버전은 [여기](http://kpk0416.dothome.co.kr/jaques_gaschon)를 눌러 브라우저에서 이용할 수 있습니다.
 
 ## 개발자
 * 이름 : 김평강
