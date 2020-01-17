@@ -1,4 +1,4 @@
-# jacques_gaschon
+# Jacques_Gaschon
 자작 펜션 웹앱
 
 ## 개발 배경
