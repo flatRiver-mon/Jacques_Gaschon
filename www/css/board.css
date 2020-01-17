@@ -1,0 +1,40 @@
+.listbox {
+    border-top: 2px solid #1A1A1A;
+    margin-bottom: 2em;
+}
+
+.lt-head {
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+.listtable li {
+    overflow: auto;
+}
+
+.listtable span {
+    display: block;
+    float: left;
+    text-align: center;
+    padding: 1em 0em;
+    font-size: 0.95em;
+    border-bottom: 1px solid #808080;
+}
+
+.listtable span a {
+    display: block;
+}
+
+.listtable span a:hover {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.listbox .listtitle {
+    text-align: left;
+}
+
+
+.bcol-65 {width: 65px;}
+.bcol-100 {width: 100px;}
+.bcol-rest {width: calc(100% - 165px);}

@@ -1,0 +1,271 @@
+#visual {
+    width: 100%;
+    position: relative;
+}
+
+.slide {
+    outline: none;
+}
+
+.slide>img {
+    width: 100%;
+}
+
+.slick-arrow {
+    width: 40px;
+    height: 90px;
+    top: 50%;
+    position: absolute;
+    border: none;
+    background-color: rgba(255,255,255,0.4);
+    z-index: 100;
+    cursor: pointer;
+    outline: none;
+    transform: translateY(-50%);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.slick-arrow:hover {
+    color: #1A1A1A;
+}
+
+.slick-prev {
+    left: 20px;
+    background-image: url(../images/slider_btn_prev.png);
+    box-shadow: 3px 0px 10px rgba(26,26,26,0.8);
+}
+
+.slick-next {
+    right: 20px;
+    background-image: url(../images/slider_btn_next.png);
+    box-shadow: -3px 0px 10px rgba(26,26,26,0.8);
+}
+
+.slick-dots {
+    text-align: center;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.slick-dots>li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.slick-dots button {
+    color: transparent;
+    width: 19px;
+    height: 19px;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin: 0px 7px;
+}
+
+.slick-active button {
+    background-color: white;
+}
+
+#shortintro {
+    padding: 40px 0px;
+}
+
+#shortintro p {
+    text-align: center;
+    line-height: 1.4em;
+    letter-spacing: -0.05em;
+    color: #1A1A1A;
+    word-break: keep-all;
+    font-size: 1.05em;
+}
+
+#shortintro .mainmark {
+    font-size: 1.5em;
+    color: #1A1A1A;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+#imgbox {
+    overflow: auto;
+    margin-top: 20px;
+}
+
+#imgbox>div {
+    width: 20%;
+    height: 380px;
+    float: left;
+}
+
+#roomview {
+    overflow: auto;
+    padding: 40px 0px;
+}
+
+#roomview>.mainmark {
+    letter-spacing: -0.05em;
+    margin-bottom: 10px;
+}
+
+#roomview>div {
+    width: calc((100% - 60px) / 3);
+    float: left;
+    height: 300px;
+    margin: 10px 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+#roomview img {
+    transition: transform 8s;
+}
+
+#roomview>div:hover>img {
+    transform: translate(-50%, -50%) scale(1.3);
+}
+
+#linksbox {
+    overflow: auto;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+#linksbox a {
+    display: block;
+    float: left;
+    width: calc((100% - 60px) / 3);
+    background-color: #808080;
+    margin: 10px;
+    color: white;
+    padding: 0.5em;
+    transition: all 0.3s;
+}
+
+#linksbox a:hover {
+    box-shadow: 0px 2px 8px rgba(26,26,26,0.5);
+}
+
+.blackcover {
+    display: block;
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    text-align: center;
+    padding-top: 120px;
+    letter-spacing: -0.05em;
+}
+
+.blackcover>span {
+    font-size: 1.3em;
+    display: block;
+}
+
+.blackcover>button {
+    margin-top: 0.6em;
+    border: 1px solid white;
+    padding: 0.5em;
+    color: white;
+    background-color: transparent;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+@media all and (max-width:1025px){
+    #shortintro {
+        padding: 20px 0px;
+    }
+    
+    #imgbox>div {
+        width: 100%;
+        height: 300px;
+    }
+    
+    #imgbox>div:nth-of-type(3){
+        display: none;
+    }
+    
+    #imgbox>div:nth-of-type(4){
+        display: none;
+    }
+    
+    #roomview {
+        padding: 20px 0px;
+    }
+    
+    #roomview>div {
+        width: 100%;
+        margin: 5px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+}
+
+@media all and (max-width:770px){
+    .slick-arrow {
+        width: 35px;
+        height: auto;
+        top: 0;
+        bottom: 0;
+        transform: none;
+    }
+    
+    .slick-prev {
+        left: 0px;
+    }
+    
+    .slick-next {
+        right: 0px;
+    }
+    
+    .slick-dots {
+        bottom: 10px;
+    }
+        
+    #linksbox a {
+        margin: 5px;
+        width: calc(100% - 10px);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

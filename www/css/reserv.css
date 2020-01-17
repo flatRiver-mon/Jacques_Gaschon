@@ -1,0 +1,431 @@
+#upperbox {
+    overflow: auto;
+}
+
+#upperbox>div {
+    float: left;
+    width: 50%;
+    padding: 1em;
+    position: relative;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#calbox {
+    overflow: auto;
+}
+
+.legend {
+    float: left;
+    padding-top: 5em;
+}
+
+.legend span {
+    display: block;
+    padding-left: 0.5em;
+}
+
+.legend span:first-of-type::before {
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-color: #81c147;
+    vertical-align: 5px;
+    margin-right: 3px;
+}
+
+.legend span:last-of-type::before {
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-color: #ff095a;
+    vertical-align: 5px;
+    margin-right: 3px;
+}
+
+.cal {
+    box-sizing: border-box;
+    border-collapse: collapse;
+    border: 1px solid #1A1A1A;
+    font-size: 1.1em;
+    margin-left: 1em;
+    float: left;
+}
+
+.cal th,
+.cal td {
+    border: 1px solid #1A1A1A;
+    padding: 0.35em;
+}
+
+.cal th:first-of-type,
+.cal td:first-of-type {
+    color: red;
+}
+.cal th:last-of-type,
+.cal td:last-of-type {
+    color: blue;
+}
+
+.cal-head {
+    text-align: center;
+    color: black;
+}
+
+#upperbox .cal-title {
+    color: #1A1A1A;
+}
+
+.cal-btn {
+    border: none;
+    background-color: transparent;
+    padding: 0.5em;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 1em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.dcell {
+    cursor: pointer;
+    position: relative;
+}
+
+.greenbean {
+    position: absolute;
+    width: 3px;
+    height: 4px;
+    bottom: 1px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #81c147;
+}
+
+.greenbean:nth-of-type(1) {
+    left: 20%;
+}
+
+.greenbean:nth-of-type(2) {
+    left: 35%;
+}
+
+.greenbean:nth-of-type(4) {
+    left: 65%;
+}
+
+.greenbean:nth-of-type(5) {
+    left: 80%;
+}
+
+.redbean {
+    background-color: #ff095a;
+}
+
+#indate {
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#infobox {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 2em;
+    background-color: #F8F8F8;
+    border-radius: 2px;
+}
+
+#infobox>p {
+    margin-bottom: 1em;
+}
+
+#roomchoice {
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+    border-top: 2px solid #1A1A1A;
+    color: #1A1A1A;
+}
+
+.roombox {
+    overflow: auto;
+    padding: 0.5em;
+    border-bottom: 1px solid #808080;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.bactive {
+    box-shadow: 0px 0px 5px #808080;
+}
+
+.roomleft {
+    width: 50%;
+    float: left;
+}
+
+.roomleft>div, .roomright>div {
+    float: left;
+    height: 200px;
+}
+
+.roomleft>div:first-of-type {
+    width: 50%;
+    height: 200px;
+}
+
+.roominfo {
+    width: 50%;
+    position: relative;
+    padding-left: 1em;
+    font-size: 1.05em;
+}
+
+.roominfo>div {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.roominfo span {
+    display: block;
+    line-height: 1.4em;
+}
+
+.roomright {
+    width: 40%;
+    float: right;
+    height: 200px;
+    text-align: center;
+}
+
+.roominfo>div>.can {
+    display: inline-block;
+    background-color: #81c147;
+    color: white;
+    padding: 0.3em;
+    margin-bottom: 0.3em;
+}
+
+.roominfo>div>.cannot {
+    display: inline-block;
+    background-color: #ff095a;
+    color: white;
+    padding: 0.3em;
+    margin-bottom: 0.3em;
+}
+
+.roomright>div {
+    position: relative;
+    width: calc(100% / 3);
+}
+
+.roomright>div>div {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.roomright span {
+    display: block;
+    font-size: 1.05em;
+}
+
+.roomright select {
+    height: 30px;
+    margin-top: 0.8em;
+    border: none;
+    border: 1px solid #808080;
+    background-color: white;
+    outline: none;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+#btnbox {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.btn {
+    cursor: pointer;
+    outline: none;
+}
+
+.lastval {
+    margin-top: 0.8em;
+}
+
+#desc {
+    padding-top: 2em;
+}
+
+#confirm {
+    margin: 4em;
+}
+
+#movebox {
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+}
+
+#movebox>p {
+    text-align: center;
+    font-size: 1.1em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    word-break: keep-all;
+}
+
+.chktable {
+    border-collapse: collapse;
+}
+
+.chktable th {
+    text-align: right;
+    font-weight: 400;
+    font-size: 1.05em;
+    padding: 1em;
+    border-bottom: 1px solid #808080;
+    border-right: 1px solid #808080;
+    background-color: #F8F8F8;
+}
+
+.chktable td {
+    border-bottom: 1px solid #808080;
+    padding: 1em;
+}
+
+.chktable tr:first-of-type th,
+.chktable tr:first-of-type td {
+    border-top: 1px solid #808080;
+}
+
+.chktable input {
+    height: 34px;
+    padding-left: 0.5em;
+}
+
+.chktable input[name="name"] {
+    width: 100%;
+}
+
+.chktable input[name^="tel"] {
+    width: 26%;
+    float: left;
+}
+
+.chktable span {
+    display: block;
+    float: left;
+    line-height: 34px;
+    width: 11%;
+    text-align: center;
+}
+
+.chkbtn {
+    margin-top: 1.3em;
+    width: 60%;
+}
+
+@media all and (max-width:810px){
+    #upperbox>div {
+        float: none;
+        width: 100%;
+    }
+    
+    #upperbox>div:last-of-type {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 0px;
+    }
+    
+    #tabcont_box #calbox {
+        margin-bottom: 0px;
+    }
+    
+    #calbox>.cal {
+        float: none;
+        margin: auto;
+    }
+    
+    #infobox {
+        width: 100%;
+    }
+    
+    .roomleft, .roomright {
+        float: none;
+        width: 100%;
+    }
+    
+    .roomleft>div:first-of-type {
+        width: 60%;
+    }
+
+    .roominfo {
+        width: 40%;
+    }
+    
+    .roomright>div {
+        height: 100px;
+    }
+    
+    .roomright span {
+        display: inline-block;
+    }
+    
+    .roomright>div>div {
+        text-align: center;
+    }
+    
+    #confirm {
+        margin: 0px;
+    }
+    
+    #movebox {
+        min-width: auto;
+        margin-bottom: 2em;
+    }
+    
+    .legend {
+        float: none;
+        padding-top: 2em;
+        margin: auto;
+        text-align: center;
+    }
+    
+
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

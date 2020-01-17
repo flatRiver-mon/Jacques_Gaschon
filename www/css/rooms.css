@@ -1,0 +1,53 @@
+.roomupbox {
+    overflow: auto;
+    margin-bottom: 1em;
+}
+
+.leftbox {
+    float: left;
+    width: 47%;
+    height: 330px;
+}
+
+.rightbox {
+    position: relative;
+    float: right;
+    width: 47%;
+    padding-left: 0.8em;
+}
+
+.rightbox>div:first-of-type {
+    padding-top: 1em;
+}
+
+.roomdownbox>div {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 1em;
+}
+
+@media all and (max-width:770px){
+    .roomupbox>div {
+        float: none;
+        width: 100%;
+    }
+    
+    .leftbox {
+        display: none;
+    }
+    
+    .roomdownbox>div {
+        height: 300px;
+    }
+}
+
+@media all and (max-width:490px){
+    #tabbtn_box {
+        height: 140px;
+    }
+    
+    #tabbtn_box>.tabbtn {
+        width: calc(100% / 3)!important;
+    }
+    
+}

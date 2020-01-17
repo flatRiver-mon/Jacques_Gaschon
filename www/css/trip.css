@@ -1,0 +1,98 @@
+#tripbox {
+    overflow: auto;
+    margin-bottom: 2em;
+}
+
+.tripwrapbox {
+    overflow: auto;
+}
+
+.tripcont {
+    padding: 10px;
+    float: left;
+    width: calc(100% / 3);
+}
+
+.tripcont>div:first-of-type {
+    height: 250px;
+}
+
+.tripcont>div:first-of-type:hover .cover {
+    top: 0px;
+}
+
+.cover {
+    position: absolute;
+    widows: 100%;
+    height: 250px;
+    background-color: rgba(26,26,26,0.7);
+    left: 0;
+    right: 0;
+    top: 240px;
+    transition: all 0.4s;
+    color: white;
+    font-size: 0.85em;
+    border-top: 1px solid white;
+}
+
+.cover div {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-left: 10px;
+}
+
+.cover span {
+    display: block;
+    word-break: keep-all;
+    line-height: 1.5em;
+}
+
+
+
+.tripinfo {
+    margin-top: 20px;
+}
+
+.tripinfo>p {
+    font-size: 0.92em;
+    letter-spacing: -0.02em;
+    line-height: 1.4em;
+}
+
+@media all and (max-width:920px){
+    .tripcont {
+        width: 100%;
+        float: none;
+    }
+    
+    .cover {
+        font-size: 1em;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

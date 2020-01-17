@@ -1,0 +1,476 @@
+<!doctype HTML>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="author" content="Pyungkang Kim" />
+        <meta name="keywords" content="Jacques Gaschon, 펜션, 펜션예약, 바베큐, 스파, 휴식, 여행, 관광" />
+        <meta name="description" content="펜션 Jacques Gaschon은 도심속의 힐링을 위한 휴식처입니다.
+                                          심플하고 고급스러운 인테리어와 청결한 시설, 로맨틱한 저녁식사를 위한 프라이빗 바베큐 바, 노천 스파 등 휴식을 위한 모든 시설들이 준비되어 있습니다.
+                                          여러분의 느긋하고 편안한 휴식을 위해 로비에 매일 다른 메뉴의 조식을 준비하고 있습니다.
+                                          도심에서 벗어나 Jacques Gaschon에서 힐링하며 좋은 추억을 만드세요." />
+        <meta name="viewport" content="initial-scale=1, width=device-width" />
+        <title>Jacques Gaschon &gt; 예약</title>
+        <link href="css/common.css" rel="stylesheet" />
+        <link href="css/reserv.css" rel="stylesheet" />
+        <link href="css/ratio_adj.css" rel="stylesheet" />
+        <link href="favicon.ico" rel="icon shortcut" />
+        <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    </head>
+    
+    <body>
+        <header>
+            <div class="cen">
+                <h1><a href="index.html"><img src="images/header_logo_0.PNG" alt="위쪽로고" /></a></h1>
+                <div id="navbox">
+                    <nav id="lnb">
+                        <ul>
+                            <li class="main">
+                                <a href="about0.html">펜션소개</a>
+                                <ul class="sub">
+                                    <li><a href="about0.html">인사말</a></li>
+                                    <li><a href="about1.html">펜션전경</a></li>
+                                    <li><a href="about2.html">펜션시설</a></li>
+                                    <li><a href="about3.html">오시는길</a></li>
+                                </ul>
+                            </li>
+                            <li class="main">
+                                <a href="rooms0.html">객실</a>
+                                <ul class="sub">
+                                    <li><a href="rooms0.html?tab=0">Léna(레나)</a></li>
+                                    <li><a href="rooms0.html?tab=1">Chloé(끌로에)</a></li>
+                                    <li><a href="rooms0.html?tab=2">Camille(까미유)</a></li>
+                                    <li><a href="rooms0.html?tab=3">Alice(알리스)</a></li>
+                                    <li><a href="rooms0.html?tab=4">Ambre(앙브흐)</a></li>
+                                </ul>
+                            </li>
+                            <li class="main">
+                                <a href="reserv0.html">예약</a>
+                                <ul class="sub">
+                                    <li><a href="reserv0.html?tab=0">예약하기</a></li>
+                                    <li><a href="reserv0.html?tab=1">예약안내</a></li>
+                                    <li><a href="reserv0.html?tab=2">예약확인</a></li>
+                                </ul>
+                            </li>
+                            <li class="main">
+                                <a href="trip0.html" class="trip">주변여행지</a>
+                                <ul class="sub">
+                                </ul>
+                            </li>
+                            <li class="main">
+                                <a href="commu0.html?tab=0">커뮤니티</a>
+                                <ul class="sub">
+                                    <li><a href="commu0.html?tab=0">공지사항</a></li>
+                                    <li><a href="commu0.html?tab=1">문의게시판</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <button id="ham" type="button">
+                <span class="patty"></span>
+                <span class="patty"></span>
+                <span class="patty"></span>
+            </button>
+            <div id="backpan"></div>
+            <ul id="mnav">
+                <li class="mmain">
+                    <a href="about0.html">펜션소개</a>
+                    <ul class="msub">
+                        <li><a href="about0.html">인사말</a></li>
+                        <li><a href="about1.html">펜션전경</a></li>
+                        <li><a href="about2.html">펜션시설</a></li>
+                        <li><a href="about3.html">오시는길</a></li>
+                    </ul>
+                </li>
+                <li class="mmain">
+                    <a href="rooms0.html">객실</a>
+                    <ul class="msub">
+                        <li><a href="rooms0.html?tab=0">Léna(레나)</a></li>
+                        <li><a href="rooms0.html?tab=1">Chloé(끌로에)</a></li>
+                        <li><a href="rooms0.html?tab=2">Camille(까미유)</a></li>
+                        <li><a href="rooms0.html?tab=3">Alice(알리스)</a></li>
+                        <li><a href="rooms0.html?tab=4">Ambre(앙브흐)</a></li>
+                    </ul>
+                </li>
+                <li class="mmain mactive">
+                    <a href="reserv0.html">예약</a>
+                    <ul class="msub">
+                        <li><a href="reserv0.html?tab=0">예약하기</a></li>
+                        <li><a href="reserv0.html?tab=1">예약안내</a></li>
+                        <li><a href="reserv0.html?tab=2">예약확인</a></li>
+                    </ul>
+                </li>
+                <li class="mmain">
+                    <a href="trip0.html" class="trip">주변여행지</a>
+                    <ul class="msub">
+                    </ul>
+                </li>
+                <li class="mmain">
+                    <a href="commu0.html?tab=0">커뮤니티</a>
+                    <ul class="msub">
+                        <li><a href="commu0.html?tab=0">공지사항</a></li>
+                        <li><a href="commu0.html?tab=1">문의게시판</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </header>
+     
+        <div id="titlebox">
+            <div id="imgtitle">
+                <img src="images/title_img_3.jpg" alt="타이틀그림" />
+                <div></div>
+            </div>
+        </div>
+        
+        <section class="cen">
+            <div id="tabbtn_box">
+                <button type="button" class="tabbtn tactive">예약하기</button>
+                <button type="button" class="tabbtn">예약안내</button>
+                <button type="button" class="tabbtn">예약확인</button>
+            </div>
+            <div id="tabcont_box">
+                <div class="tabcont">
+                    <div id="upperbox">
+                        <div id="calbox">
+                            <table class="cal"></table>
+                            <div class="legend">
+                                <span>예약가능</span>
+                                <span>예약완료</span>
+                            </div>
+                        </div>
+                        <div>
+                            <div id="infobox">
+                                <p><span class="mark">펜션이름</span> Jacques Gaschon (자크가숑)</p>
+                                <p><span class="mark">문의전화</span> 042-123-1234</p>
+                                <p><span class="mark">결제안내</span> 무통장입금 (404001-04-134535 국민 한지호)</p>
+                                <p><span class="mark">할인기간</span> 성수기(7월20~8월11일, 추석, 설날)제외</p>
+                                <p><span class="mark">추가요금</span> 토요일 및 공휴일</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p id="indate">선택날짜</p>
+                    <div id="roomchoice">
+                        <div class="roombox">
+                            <div class="roomleft">
+                                <div class="ratiobox">
+                                    <img src="images/room0_0.jpg" alt="객실 레나 이미지" />
+                                </div>
+                                <div class="roominfo">
+                                    <div>
+                                        <span class="can">예약가능</span>
+                                        <span class="roomname">Léna(레나)</span>
+                                        <span>12평 / [2인 ~ 4인]</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="roomright">
+                                <div>
+                                    <div>
+                                        <span>이용기간</span>
+                                        <select class="term">
+                                            <option value="1">1박</option>
+                                            <option value="2">2박</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <span>인원선택</span>
+                                        <select class="peoplenum">
+                                            <option value="2">2인</option>
+                                            <option value="3">3인</option>
+                                            <option value="4">4인</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="sum">
+                                    <div>
+                                        <span>총 가격</span>
+                                        <span class="lastval">&nbsp;</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="roombox">
+                            <div class="roomleft">
+                                <div class="ratiobox">
+                                    <img src="images/room1_0.jpg" alt="객실 끌로에 이미지" />
+                                </div>
+                                <div class="roominfo">
+                                    <div>
+                                        <span class="can">예약가능</span>
+                                        <span class="roomname">Chloé(끌로에)</span>
+                                        <span>12평 / [2인 ~ 4인]</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="roomright">
+                                <div>
+                                    <div>
+                                        <span>이용기간</span>
+                                        <select class="term">
+                                            <option value="1">1박</option>
+                                            <option value="2">2박</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <span>인원선택</span>
+                                        <select class="peoplenum">
+                                            <option value="2">2인</option>
+                                            <option value="3">3인</option>
+                                            <option value="4">4인</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="sum">
+                                    <div>
+                                        <span>총 가격</span>
+                                        <span class="lastval">&nbsp;</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="roombox">
+                            <div class="roomleft">
+                                <div class="ratiobox">
+                                    <img src="images/room2_0.jpg" alt="객실 까미유 이미지" />
+                                </div>
+                                <div class="roominfo">
+                                    <div>
+                                        <span class="can">예약가능</span>
+                                        <span class="roomname">Camille(까미유)</span>
+                                        <span>16평 / [4인 ~ 6인]</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="roomright">
+                                <div>
+                                    <div>
+                                        <span>이용기간</span>
+                                        <select class="term">
+                                            <option value="1">1박</option>
+                                            <option value="2">2박</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <span>인원선택</span>
+                                        <select class="peoplenum">
+                                            <option value="4">4인</option>
+                                            <option value="5">5인</option>
+                                            <option value="6">6인</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="sum">
+                                    <div>
+                                        <span>총 가격</span>
+                                        <span class="lastval">&nbsp;</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="roombox">
+                            <div class="roomleft">
+                                <div class="ratiobox">
+                                    <img src="images/room3_0.jpg" alt="객실 알리스 이미지" />
+                                </div>
+                                <div class="roominfo">
+                                    <div>
+                                        <span class="can">예약가능</span>
+                                        <span class="roomname">Alice(알리스)</span>
+                                        <span>16평 / [4인 ~ 6인]</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="roomright">
+                                <div>
+                                    <div>
+                                        <span>이용기간</span>
+                                        <select class="term">
+                                            <option value="1">1박</option>
+                                            <option value="2">2박</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <span>인원선택</span>
+                                        <select class="peoplenum">
+                                            <option value="4">4인</option>
+                                            <option value="5">5인</option>
+                                            <option value="6">6인</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="sum">
+                                    <div>
+                                        <span>총 가격</span>
+                                        <span class="lastval">&nbsp;</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="roombox">
+                            <div class="roomleft">
+                                <div class="ratiobox">
+                                    <img src="images/room4_0.jpg" alt="객실 앙브흐 이미지" />
+                                </div>
+                                <div class="roominfo">
+                                    <div>
+                                        <span class="can">예약가능</span>
+                                        <span class="roomname">Ambre(앙브흐)</span>
+                                        <span>30평 / [10인 ~ 15인]</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="roomright">
+                                <div>
+                                    <div>
+                                        <span>이용기간</span>
+                                        <select class="term">
+                                            <option value="1">1박</option>
+                                            <option value="2">2박</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <span>인원선택</span>
+                                        <select class="peoplenum">
+                                            <option value="10">10인</option>
+                                            <option value="11">11인</option>
+                                            <option value="12">12인</option>
+                                            <option value="13">13인</option>
+                                            <option value="14">14인</option>
+                                            <option value="15">15인</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="sum">
+                                    <div>
+                                        <span>총 가격</span>
+                                        <span class="lastval">&nbsp;</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="btnbox">
+                        <button class="btn revbtn">예약하기</button>
+                    </div>
+                </div>
+                <div class="tabcont">
+                    <div id="desc">
+                        <p class="list-title">예약 안내사항</p>
+                        <ul class="list-subject">
+                            <li>예약은 365일 언제든지 전화를 통해 가능합니다.</li>
+                            <li>문의전화 010-1234-5678로 전화주시면 친절히 상담 해드립니다.</li>
+                            <li>무통장입금계좌 국민 110441-860460 (한지호)</li>
+                            <li>예약 신청 후 12시간 내로 전액을 입금하셔야 예약이 완료됩니다.(12시간 경과시 예약신청이 자동 취소 될 수 있습니다.)</li>
+                            <li>입금은 꼭 예약자명으로 해주시고 입금자명이 상이할 경우 전화를 주시거나 문자를 남겨주세요.</li>
+                            <li>단, 당일 예약과 하루 전 예약은 3시간 내에 결제를 완료해 주셔야 합니다.</li>
+                            <li>입실 시간은 이용당일 14:00 부터 가능합니다.</li>
+                            <li>퇴실 시간은 마지막 이용일 오전 11:00까지 입니다.</li>
+                            <li>오후 10시 이후의 입실은 사전에 반드시 연락을 주시기 바랍니다.</li>
+                        </ul>
+                        
+                        <p class="list-title">유의사항</p>
+                        <ul class="list-subject">
+                            <li>예약인원에서 인원이 추가되었을 경우 미리 말씀하셔야 하며 최대인원 초과시는 입실이 제한될 수 있습니다.</li>
+                            <li>애완견 입실불가하며 현장에서 퇴실조치 됩니다. (이경우 예약금은 환불되지 않습니다.)</li>
+                            <li>보호자를 동반하지 않은 미성년자의 이용은 불가합니다. (환불불가)</li>
+                            <li>보호자를 동반하지 않은 미성년자의 이용은 불가합니다. (환불불가)</li>
+                            <li>이용 중 비치된 집기나 시설물을 파손 시 별도로 말씀해 주셔야 합니다.</li>
+                            <li>무분별한 오락 및 음주, 고성방가 등 다른 이용객에게 불쾌감을 주는 행동은 삼가 주시기 바랍니다.</li>
+                            <li>이용객의 부주의로 일어나는 사고에 대해서는 책임을 지지않습니다.</li>
+                            <li>마지막 퇴실시에는 실내에 있는 모든 쓰레기는 분리 수거해 버려주시고, 사용하신 식기 류도 세척해 주시기 바랍니다.</li>
+                            <li>객실 정리가 끝나시면 펜션지기에게 연락하시어 퇴실점검을 받으시기 바랍니다.</li>
+                            <li>객실정리와 설거지는 반드시 해주세요.</li>
+                        </ul>
+                        
+                        <p class="list-title">환불규정</p>
+                        <ul class="list-subject">
+                            <li>올바른 예약문화의 정착을 위하여 불가피한 조치이오니 양해를 바랍니다.</li>
+                            <li>객실과 날짜는 예약 전 신중히 생각하시고 결정해주시기 바랍니다. 이용일 당일 취소시 환불이 불가능합니다.</li>
+                            <li>환불은 입금자명으로 되며 입금 시 송금수수료는 제외한 후 입금됩니다.</li>
+                            <li>객실요금 기준으로 적용되며, 예약제로 운영되고 있기 때문에 이용일에 임박할수록 환불이 곤란함을 양지하여 주시기 바랍니다.</li>
+                            <li>10일전 100%환불   /   7-9일전 90%환불   /   5-6일전 70%환불   /   3-4일전 50%환불   /   1-2일전 20%환불   /   당일 환불불가</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tabcont">
+                    <div id="confirm">
+                        <form action="reserv.php" method="get">
+                            <div id="movebox">
+                                <p>예약 신청자의 성명과 연락처를 정확히 입력해주세요.</p>
+                                <table class="chktable">
+                                    <colgroup>
+                                        <col width="30%" />
+                                        <col width="70%" />
+                                    </colgroup>
+                                    <tr>
+                                        <th>예약자 성명</th>
+                                        <td>
+                                            <input maxlength="10" name="name" type="text" title="성명을 입력하세요." placeholder="성명 입력"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>예약자 연락처</th>
+                                        <td>
+                                            <input maxlength="3" name="tel1" type="text" title="연락처 국번자리" /><span>-</span>
+                                            <input maxlength="4" name="tel2" type="text" title="연락처 중간자리" /><span>-</span>
+                                            <input maxlength="4"  name="tel3" type="text" title="연락처 마지막자리" />
+                                        </td>
+                                    </tr>
+                                </table>
+                                <div class="align-center">
+                                    <button type="submit" class="chkbtn btn">예약확인</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <footer>
+            <div class="cen">
+                <div id="footerL">
+                    <p>
+                        <span class="bigBold">042-123-1234</span>
+                        <span class="footerFont">예약 및 문의전화</span>
+                    </p>
+                    <p>
+                        <span class="bigBold">404001-04-134535</span>
+                        <span class="footerFont">입금계좌정보(국민 : 한지호)</span>
+                    </p>
+                </div>
+                <div id="footerC">
+                    <a href="#"><img src="images/footer_logo_0.PNG" alt="최하단로고" /></a>
+                </div>
+                <div id="footerR">
+                    <p>회사명 : Jacques Gaschon (자크가숑)</p>
+                    <p>브랜드명 : 펜션 Jacques Gaschon</p>
+                    <p>대표자 : 한지호</p>
+                    <p>소재지 : 대전광역시 중구 중앙로121번길 20 방산빌딩</p>
+                    <p>이메일 : <a href="mailto:jacques@gaschon.com">jacques@gaschon.com</a></p>
+                    <p>사업자등록번호 : 123-12-12345</p>
+                </div>
+            </div>
+        </footer>
+        
+        
+        
+        <script src="script/script.js"></script>
+        <script src="script/ratio_adj.js"></script>
+        <script src="script/calendar.js"></script>
+        <script src="script/calendarplus.js"></script>
+    </body>
+</html>

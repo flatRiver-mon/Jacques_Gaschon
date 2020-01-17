@@ -1,0 +1,196 @@
+<!doctype HTML>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="author" content="Pyungkang Kim" />
+        <meta name="keywords" content="Jacques Gaschon, 펜션, 펜션예약, 바베큐, 스파, 휴식, 여행, 관광" />
+        <meta name="description" content="펜션 Jacques Gaschon은 도심속의 힐링을 위한 휴식처입니다.
+                                          심플하고 고급스러운 인테리어와 청결한 시설, 로맨틱한 저녁식사를 위한 프라이빗 바베큐 바, 노천 스파 등 휴식을 위한 모든 시설들이 준비되어 있습니다.
+                                          여러분의 느긋하고 편안한 휴식을 위해 로비에 매일 다른 메뉴의 조식을 준비하고 있습니다.
+                                          도심에서 벗어나 Jacques Gaschon에서 힐링하며 좋은 추억을 만드세요." />
+        <meta name="viewport" content="initial-scale=1, width=device-width" />
+        <title>Jacques Gaschon</title>
+        <link href="css/common.css" rel="stylesheet" />
+        <link href="css/index.css" rel="stylesheet" />
+        <link href="css/ratio_adj.css" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    </head>
+    
+    <body>
+        <header>
+            <div class="cen">
+                <h1><a href="index.html"><img src="images/header_logo_0.PNG" alt="위쪽로고" /></a></h1>
+                <div id="navbox">
+                    <nav id="lnb">
+                        <ul>
+                            <li class="main">
+                                <a href="about0.html">펜션소개</a>
+                                <ul class="sub">
+                                    <li><a href="about0.html">인사말</a></li>
+                                    <li><a href="about1.html">펜션전경</a></li>
+                                    <li><a href="about2.html">펜션시설</a></li>
+                                    <li><a href="about3.html">오시는길</a></li>
+                                </ul>
+                            </li>
+                            <li class="main">
+                                <a href="rooms0.html">객실</a>
+                                <ul class="sub">
+                                    <li><a href="rooms0.html?tab=0">Léna(레나)</a></li>
+                                    <li><a href="rooms0.html?tab=1">Chloé(끌로에)</a></li>
+                                    <li><a href="rooms0.html?tab=2">Camille(까미유)</a></li>
+                                    <li><a href="rooms0.html?tab=3">Alice(알리스)</a></li>
+                                    <li><a href="rooms0.html?tab=4">Ambre(앙브흐)</a></li>
+                                </ul>
+                            </li>
+                            <li class="main">
+                                <a href="reserv0.html">예약</a>
+                                <ul class="sub">
+                                    <li><a href="reserv0.html">예약하기</a></li>
+                                    <li><a href="reserv0.html">예약안내</a></li>
+                                    <li><a href="reserv0.html">예약확인</a></li>
+                                </ul>
+                            </li>
+                            <li class="main">
+                                <a href="trip0.html" class="trip">주변여행지</a>
+                                <ul class="sub">
+                                </ul>
+                            </li>
+                            <li class="main">
+                                <a href="commu0.html?tab=0">커뮤니티</a>
+                                <ul class="sub">
+                                    <li><a href="commu0.html?tab=0">공지사항</a></li>
+                                    <li><a href="commu0.html?tab=1">문의게시판</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <button id="ham" type="button">
+                <span class="patty"></span>
+                <span class="patty"></span>
+                <span class="patty"></span>
+            </button>
+            <div id="backpan"></div>
+            <ul id="mnav">
+                <li class="mmain mactive">
+                    <a href="about0.html">펜션소개</a>
+                    <ul class="msub">
+                        <li><a href="about0.html">인사말</a></li>
+                        <li><a href="about1.html">펜션전경</a></li>
+                        <li><a href="about2.html">펜션시설</a></li>
+                        <li><a href="about3.html">오시는길</a></li>
+                    </ul>
+                </li>
+                <li class="mmain">
+                    <a href="rooms0.html">객실</a>
+                    <ul class="msub">
+                        <li><a href="rooms0.html?tab=0">Léna(레나)</a></li>
+                        <li><a href="rooms0.html?tab=1">Chloé(끌로에)</a></li>
+                        <li><a href="rooms0.html?tab=2">Camille(까미유)</a></li>
+                        <li><a href="rooms0.html?tab=3">Alice(알리스)</a></li>
+                        <li><a href="rooms0.html?tab=4">Ambre(앙브흐)</a></li>
+                    </ul>
+                </li>
+                <li class="mmain">
+                    <a href="reserv0.html">예약</a>
+                    <ul class="msub">
+                        <li><a href="reserv0.html">예약하기</a></li>
+                        <li><a href="reserv0.html">예약안내</a></li>
+                        <li><a href="reserv0.html">예약확인</a></li>
+                    </ul>
+                </li>
+                <li class="mmain">
+                    <a href="trip0.html" class="trip">주변여행지</a>
+                    <ul class="msub">
+                    </ul>
+                </li>
+                <li class="mmain">
+                    <a href="commu0.html?tab=0">커뮤니티</a>
+                    <ul class="msub">
+                        <li><a href="commu0.html?tab=0">공지사항</a></li>
+                        <li><a href="commu0.html?tab=1">문의게시판</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </header>
+        
+        <div id="titlebox">
+            <div id="imgtitle">
+                <img src="images/title_img_0.jpg" alt="타이틀그림" />
+                <div></div>
+            </div>
+        </div>
+        
+        <section class="cen">
+            <div id="tabbtn_box">
+                <button type="button" class="tabbtn tactive">탭 스타일</button>
+                <button type="button" class="tabbtn">리스트 스타일</button>
+                <button type="button" class="tabbtn">버튼 스타일 </button>
+            </div>
+            <div id="tabcont_box">
+                <div class="tabcont">
+                    <p>
+                        탭 스타일은 tabbtn_box 안에 tabbtn을 포함하는 형태로
+                        <br />
+                        활성화 된 tabbtn을 표시하기 위하여 클래스 tactive를 준다.
+                    </p>
+                </div>
+                <div class="tabcont">
+                    <p>
+                        왼쪽에 검은 사각형을 추가하는 스타일을 만들기 위해서는
+                        <br />
+                        ul이나 ol에게 클래스 list-subject를 넣어준다.
+                        <br />
+                        그 위에는 그 리스트에 해당하는 제목을 강조하기 위해서 list-title 클래스를 준다.
+                    </p>
+                    <p class="list-title">유의사항</p>
+                    <ul class="list-subject">
+                        <li>애완견 입실불가하며 현장에서 퇴실조치 됩니다. (이경우 예약금은 환불되지 않습니다.)</li>    
+                        <li>보호자를 동반하지 않은 미성년자의 이용은 불가합니다. (환불불가)</li>    
+                        <li>객실 내에서는 절대 금연이며 삼겹살 등의 육류를 직화 방식으로 조리하실 수 없습니다.</li>    
+                        <li>이용 중 비치된 집기나 시설물을 파손 시 별도로 말씀해 주셔야 합니다.</li>    
+                        <li>무분별한 오락 및 음주, 고성방가 등 다른 이용객에게 불쾌감을 주는 행동은 삼가 주시기 바랍니다.</li>    
+                    </ul>
+                </div>
+                <div class="tabcont">
+                    <button type="button" class="btn">버튼1</button>
+                    <button type="button" class="btn">버튼2</button>
+                </div>
+            </div>
+        </section>
+        
+        <footer>
+            <div class="cen">
+                <div id="footerL">
+                    <p>
+                        <span class="bigBold">042-123-1234</span>
+                        <span class="footerFont">예약 및 문의전화</span>
+                    </p>
+                    <p>
+                        <span class="bigBold">404001-04-134535</span>
+                        <span class="footerFont">입금계좌정보(국민 : 한지호)</span>
+                    </p>
+                </div>
+                <div id="footerC">
+                    <a href="#"><img src="images/footer_logo_0.PNG" alt="최하단로고" /></a>
+                </div>
+                <div id="footerR">
+                    <p>회사명 : Jacques Gaschon (자크가숑)</p>
+                    <p>브랜드명 : 펜션 Jacques Gaschon</p>
+                    <p>대표자 : 한지호</p>
+                    <p>소재지 : 대전광역시 중구 중앙로121번길 20 방산빌딩</p>
+                    <p>이메일 : <a href="mailto:jacques@gaschon.com">jacques@gaschon.com</a></p>
+                    <p>사업자등록번호 : 123-12-12345</p>
+                </div>
+            </div>
+        </footer>
+        
+        
+        
+        <script src="script/script.js"></script>
+        <script src="script/ratio_adj.js"></script>
+    </body>
+</html>
